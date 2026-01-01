@@ -33,25 +33,45 @@ The project focuses on **clean architecture** and **software testing techniques*
 
 RomanianWeatherWebApp/
 │
+
 ├── backend/
+
 │ ├── RomanianWeather.API/
+
 │ │ ├── Controllers/
+
 │ │ ├── Services/
+
 │ │ ├── Interfaces/
+
 │ │ ├── Models/
+
 │ │ └── Program.cs
+
 │ │
+
 │ └── RomanianWeather.Tests/
+
 │ ├── ServiceTests/
+
 │ ├── ControllerTests/
+
 │ ├── Stubs/
+
 │ └── Mocks/
+
 │
+
 ├── frontend/
+
 │ ├── index.html
+
 │ ├── styles.css
+
 │ └── app.js
+
 │
+
 └── README.md
 
 ---
@@ -119,5 +139,5 @@ This project was developed as part of a **software testing and quality assurance
 ## 👤 Author
 
 **Alin Lemnaru**  
-3rd-year Systems Engineering student  
+4th-year Systems Engineering student  
 Passionate about software architecture, testing, and backend development
