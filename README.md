@@ -32,6 +32,7 @@ The project focuses on **clean architecture** and **software testing techniques*
 ## 🏗️ Project Architecture
 
 RomanianWeatherWebApp/
+
 │
 
 ├── backend/
