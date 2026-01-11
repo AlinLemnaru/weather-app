@@ -14,7 +14,9 @@ builder.Services.AddSwaggerGen();
 
 // Register WeatherService and MeteoApiClient
 builder.Services.AddHttpClient<IWeatherApiClient, MeteoApiClient>();
+builder.Services.AddScoped<IWeatherService, WeatherService>();
 builder.Services.AddScoped<WeatherService>();
+builder.Services.AddScoped<WeatherAnalysisService>();
 
 var app = builder.Build();
 

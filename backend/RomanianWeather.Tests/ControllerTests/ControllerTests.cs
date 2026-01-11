@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RomanianWeather.Tests.ControllerTests
 {
-    internal class WeatherControllerTests
+    internal class ControllerTests
     {
     }
 }

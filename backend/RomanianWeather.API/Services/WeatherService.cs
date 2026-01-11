@@ -21,12 +21,18 @@ namespace RomanianWeather.API.Services
 
         public WeatherSnapshot? GetWeatherByCity(string cityName)
         {
+            if (string.IsNullOrWhiteSpace(cityName))
+                throw new ArgumentException("City cannot be null or empty", nameof(cityName));
+
             return _weatherApiClient.GetTodayWeather()
                                     .FirstOrDefault(w => w.City.ToLower() == cityName.ToLower());
         }
 
         public IEnumerable<ForecastDay> Get5DayForecast(string city)
         {
+            if (string.IsNullOrWhiteSpace(city))
+                throw new ArgumentException("City cannot be null or empty", nameof(city));
+
             return _weatherApiClient.Get5DayForecast(city);
         }
     }

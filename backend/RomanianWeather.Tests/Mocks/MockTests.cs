@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RomanianWeather.Tests.ServiceTests
+namespace RomanianWeather.Tests.Mocks
 {
-    internal class ExternalLinkServiceTests
+    internal class MockTests
     {
     }
 }

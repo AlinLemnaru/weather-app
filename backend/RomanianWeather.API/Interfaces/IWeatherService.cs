@@ -14,5 +14,10 @@ namespace RomanianWeather.API.Interfaces
         /// Returns weather for a specific city, or null if not found
         /// </summary>
         WeatherSnapshot? GetWeatherByCity(string cityName);
+
+        /// <summary>
+        /// Returns 5-day weather forecast for a specific city
+        /// </summary>
+        public IEnumerable<ForecastDay> Get5DayForecast(string city);
     }
 }
