@@ -43,6 +43,8 @@ weather-app/
 
 │ │ ├── Services/
 
+│ │ ├── Providers/
+
 │ │ ├── Interfaces/
 
 │ │ ├── Models/
