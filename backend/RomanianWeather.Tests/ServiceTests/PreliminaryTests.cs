@@ -167,7 +167,7 @@ namespace RomanianWeather.Tests.ServiceTests
             var stub = new MeteoApiClientStub(customForecast, customToday);
 
             // Act
-            var forecastResult = stub.Get5DayForecast("Cluj"); // match the key exactly
+            var forecastResult = stub.Get5DayForecast("Cluj"); // match the key 
             var todayResult = stub.GetTodayWeather();
 
             // Assert

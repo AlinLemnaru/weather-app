@@ -11,7 +11,7 @@ public class MeteoApiClientStub : IWeatherApiClient
         List<WeatherSnapshot>? customTodayWeather = null)
     {
         // Use provided city forecasts or default
-        _cityForecasts = customForecasts ?? new Dictionary<string, List<ForecastDay>>
+        _cityForecasts = customForecasts ?? new Dictionary<string, List<ForecastDay>>(StringComparer.OrdinalIgnoreCase)
         {
             { "Iasi", new List<ForecastDay>
                 {
