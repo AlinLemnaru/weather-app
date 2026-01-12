@@ -1,6 +1,6 @@
 # Weather App 🌦️
 
-A web application built with **ASP.NET Core (C#)** that displays current weather conditions and forecasts for Romanian cities using **official Romanian meteorological data (ANM)**.
+An application built with **ASP.NET Core (C#)** that displays current weather conditions and forecasts for Romanian cities using **official Romanian meteorological data (ANM)**.
 
 The project focuses on **clean architecture** and **software testing techniques**, including **boundary testing, stubs, and mocks**, as part of an academic assignment.
 
@@ -9,8 +9,7 @@ The project focuses on **clean architecture** and **software testing techniques*
 ## 🎯 Project Goals
 
 - Consume real Romanian weather data using public ANM endpoints (JSON & XML)
-- Provide a simple web-based UI for displaying weather information
-- Apply **unit testing strategies** used in real-world software engineering
+- Apply **unit testing strategies** 
 - Demonstrate proper separation of concerns and dependency injection
 
 ---
@@ -24,7 +23,6 @@ The project focuses on **clean architecture** and **software testing techniques*
   - Stubbed weather API responses
   - Mocked service dependencies
   - Boundary condition testing
-- 🌐 Simple web frontend (HTML / CSS / JavaScript)
 - ⚙️ RESTful backend built with ASP.NET Core Web API
 
 ---
@@ -65,16 +63,6 @@ weather-app/
 
 │
 
-├── frontend/
-
-│ ├── index.html
-
-│ ├── styles.css
-
-│ └── app.js
-
-│
-
 └── README.md
 
 ---
@@ -87,7 +75,7 @@ weather-app/
 - **5-Day Forecast (XML)**  
   https://www.meteoromania.ro/anm/prognoza-orase-xml.php
 
-> Although some endpoints return downloadable XML files, they are treated as APIs and parsed programmatically.
+> Although some endpoints return downloadable XML files, they are treated as APIs and parsed.
 
 ---
 
@@ -110,15 +98,7 @@ This project applies multiple testing techniques:
 - Uses mocking frameworks (e.g., Moq)
 - Verifies interactions between controllers and services
 - Confirms correct behavior and method calls
-
----
-
-## 🖥️ Frontend
-
-- Simple, lightweight web interface
-- Communicates with backend via REST API
-- Focus kept on backend logic and testing
-
+- 
 ---
 
 ## 🚀 Technologies Used
@@ -129,13 +109,12 @@ This project applies multiple testing techniques:
 - Dependency Injection
 - MSTest / NUnit
 - Moq
-- HTML / CSS / JavaScript
 
 ---
 
 ## 📚 Academic Context
 
-This project was developed as part of a **software testing and quality assurance course**, extending previous work by applying the same testing strategies to a **more complex, real-world system**.
+This project was developed as part of a **software testing and quality assurance course**.
 
 ---
 
